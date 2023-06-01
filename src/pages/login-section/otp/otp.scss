@@ -1,0 +1,33 @@
+page-otp {
+    span.button-inner {
+        color: white;
+    }
+    .resright { 
+		text-align: right !important;
+	}
+
+	 .resend {
+        width: 100%;
+        // text-align: right !important;
+        // padding-right: 16px;
+		text-decoration: none;
+		display: inline-block;
+		margin: 10px 2px;
+		background-color: #003488; 
+		// border: 2px solid #4CAF50;
+		height: 35px;
+		width: 86px;
+			padding: 5px 2px;
+            border-radius: 20px;
+        a {
+            font-size: 12px;
+            color: $white;
+            font-weight: $semibold;
+            // text-align: center;
+            margin-top: auto;
+
+			
+        }
+    }
+
+}

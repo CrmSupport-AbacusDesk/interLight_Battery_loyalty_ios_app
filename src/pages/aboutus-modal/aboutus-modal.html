@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>{{'Aboutus Modal' | translate}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div class="main-modal">
+        <div class="modal-box">
+            <h1>{{'Interlight Battery' | translate}}</h1>
+            <h2>{{'Your request to access the Interlight Battery is under review. You will be able to log in as soon as the overseeing admin acknowledges your application.' | translate}}</h2>
+            <p>{{'Meanwhile, you can contact us' | translate}} <a href="tel:18001371500">1800 137 1500</a> {{'or mail us' | translate}} <span> <a href="mailto:care@interlight.co.in">care@interlight.co.in</a>
+            </span> {{'if you any question' | translate}}.</p>
+            <div class="modal-cls" (click)="gotoHomePage()">
+                <i class="material-icons">cancel</i>
+            </div>
+        </div>
+    </div>
+</ion-content>
